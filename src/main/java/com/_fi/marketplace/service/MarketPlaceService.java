@@ -108,7 +108,8 @@ public class MarketPlaceService {
                                         emiPlan.getTenureMonths(),
                                         emiPlan.getMonthlyAmount(),
                                         emiPlan.getInterestRate(),
-                                        emiPlan.getProcessingFee()
+                                        emiPlan.getProcessingFee(),
+                                        emiPlan.getTotalAmountPayable()
                                 )
                         )
                         .toList();

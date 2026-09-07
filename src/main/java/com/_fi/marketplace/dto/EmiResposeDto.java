@@ -15,4 +15,5 @@ public class EmiResposeDto {
     private BigDecimal monthlyAmount;
     private BigDecimal interestRate;
     private BigDecimal processingFee;
+    private BigDecimal totalAmountPayable;
 }

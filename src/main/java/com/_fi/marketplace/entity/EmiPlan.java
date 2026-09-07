@@ -27,4 +27,6 @@ public class EmiPlan {
     private BigDecimal interestRate;
     private  BigDecimal monthlyAmount ;
     private BigDecimal processingFee;
+    @Column(name = "total_amount_payable")
+    private BigDecimal totalAmountPayable;
 }
